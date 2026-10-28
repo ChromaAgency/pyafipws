@@ -278,8 +278,6 @@ class WSCPE(BaseWS):
                     "nroOrden": nro_orden,
                 },
             }
-            if not sucursal:
-                del cabecera["cartaPorte"]
             self.cpe = cabecera
         else:
             cabecera = {
